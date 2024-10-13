@@ -1,0 +1,449 @@
+h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    margin-right: 0px;
+    float: left;
+    top: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    line-height: 40px;
+    padding: 0 25px;
+}
+
+nav .logo {
+    padding-left: 30px;
+}
+
+nav ul li,
+nav ul ul li {
+    display: block;
+    width: 100%;
+    background: none;
+}
+
+nav ul ul {
+    top: 70px;
+    position: static;
+    border-top: none;
+    float: none;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul ul li {
+    position: static;
+    width: 100%;
+}
+
+nav ul ul a,
+nav ul ul li .show {
+    padding-left: 60px;
+}
+
+nav ul ul ul a {
+    padding-left: 85px;
+}
+
+nav .fas {
+    width: 25px;
+}
+
+nav .fa-caret-down {
+    position: absolute;
+    right: 30px;
+    line-height: 40px;
+}
+
+.show {
+    display: block;
+    color: white;
+    font-size: 13px;
+    padding: 0 25px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.show:hover {
+    background: #24292E;
+}
+
+.icon {
+    display: block;
+    color: white;
+    position: absolute;
+    right: 40px;
+    line-height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+    top: 5px;
+}
+
+nav ul li:hover>a {
+    box-shadow: none;
+}
+
+nav ul li a:hover {
+    box-shadow: none;
+    color: #f44336;
+}
+
+nav ul ul li a:hover {
+    border-left: none;
+    color: #f44336;
+}
+
+nav ul ul li:hover {
+    color: #f44336;
+}
+
+.show+a,
+ul {
+    display: none;
+}
+
+[id^=btn]:checked+ul {
+    display: block;
+}
+
+.principle {
+    color: #fff;
+    text-align: center;
+    margin: 16vh auto;
+    width: 250px;
+}
+
+.principle h1 {
+    font-size: 30px;
+}
+
+.principle p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+@keyframes slide {
+    0% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide1.jpg');
+        background-size: 120%;
+    }
+    20% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide1.jpg');
+        background-size: 100%;
+    }
+    20.01% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide2.jpg');
+        background-size: 120%;
+    }
+    40% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide2.jpg');
+        background-size: 100%;
+    }
+    40.01% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide3.jpg');
+        background-size: 120%;
+    }
+    60% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide3.jpg');
+        background-size: 100%;
+    }
+    60.01% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide4.jpg');
+        background-size: 120%;
+    }
+    80% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide4.jpg');
+        background-size: 100%;
+    }
+    80.01% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide5.jpg');
+        background-size: 120%;
+    }
+    100% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('images/mSlide5.jpg');
+        background-size: 100%;
+    }
+}
+
+.row {
+    flex-direction: column;
+    width: 100%;
+}
+
+.slider .crd,
+.courseCol {
+    margin: 10px 5%;
+}
+
+
+/* todays routine started */
+
+.tRoutine {
+    width: 95%;
+}
+
+.tRoutine .crd {
+    width: 48%;
+    margin: 5px 1%;
+}
+
+.gradIcon .fa-user-clock {
+    font-size: 60px;
+}
+
+.tRoutine .crd .cont table {
+    margin: 15px auto 10px auto;
+    width: 90%;
+}
+
+.tRoutine .crd .cont table td {
+    font-size: 13px;
+    padding: 3px 3px;
+}
+
+.tRoutine .crd .cont .heroBtn {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* todays routine Ended */
+
+
+/* Call to action section Started */
+
+.cta {
+    width: 90%;
+    padding: 60px 20px;
+    margin: 30px auto;
+}
+
+.cta h1 {
+    font-size: 24px;
+}
+
+
+/* Call to action section Ended */
+
+
+/* student Statistics */
+
+.stStat {
+    width: 90%;
+}
+
+.statCol {
+    width: 100%;
+    margin-top: 70px;
+    margin-right: 0;
+}
+
+.statCol:last-child {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.Feedback {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* footer section started */
+
+.footer {
+    padding: 30px 5%;
+    /* border-radius: 70px 70px 0 0; */
+}
+
+.footer .fcol {
+    padding-right: 0;
+}
+
+.footer .ftrTopEle {
+    min-height: 0px;
+}
+
+.footer .fcol:nth-child(3) {
+    padding-right: 0px;
+}
+
+.fcol .icons .fab {
+    margin: 10px 5px 30px 5px;
+}
+
+.footer ol li a {
+    font-size: 15px;
+}
+
+.footer ol {
+    margin-bottom: 20px;
+}
+
+.footer .gotop {
+    margin-top: 10px;
+}
+
+
+/* footer section ended */
+
+
+/* contact page started */
+
+.sub-header {
+    height: 50vh;
+}
+
+.sub-header h1 {
+    margin: 13vh 10px 5px 10px;
+}
+
+.contactHeader {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/contactIMG.jpg);
+}
+
+.location {
+    width: 90%;
+}
+
+.contactUs {
+    width: 90%;
+}
+
+.contactCol div .fa {
+    font-size: 20px;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.contactCol div .far {
+    font-size: 20px;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.contactCol div h5 {
+    font-size: 15px;
+}
+
+.contactCol div h5 a {
+    font-size: 15px;
+}
+
+
+/* contact page ended */
+
+.aboutUs {
+    width: 90%;
+}
+
+.pTable table {
+    width: 90%;
+    font-size: 13px;
+}
+
+.pTable .secTable caption {
+    text-align: left;
+    margin-left: 8%;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+/* ----------Onestop page started---------- */
+
+.OneForm {
+    padding: 15px;
+}
+
+.directMail {
+    padding: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.bdR {
+    border-left: none;
+    border-top: 0.5px solid gray;
+}
+
+
+/* ----------Onestop page ended---------- */
+
+
+/* -----------Course pages started------------ */
+
+.container {
+    width: 90%;
+}
+
+.matRow {
+    width: 100%;
+}
+
+.crsRow {
+    border: none;
+    padding: 0 0 30px 0;
+}
+
+.facRow {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 0 10px 30px 10px;
+}
+
+.facultyINFO {
+    text-align: center;
+    width: 100%;
+}
+
+.crsCol h2 {
+    margin: 30px 0 10px 0;
+}
+
+.crsMat {
+    width: 46.5%;
+}
+
+.pdfICO {
+    width: 15%;
+}
+
+.crsMat .pdfICO .fas {
+    font-size: 26px;
+}
+
+.crsMat .pdfICO .fa-link {
+    font-size: 22px;
+}
+
+.crsMat a {
+    width: 81%;
+}
+
+
+/* -----------Course pages started------------ */
+
+
+/* --------Faculty Info Started--------- */
+
+.facProfile {
+    width: 100%;
+    min-height: fit-content;
+}
+
+
+/* --------Faculty Info Ended--------- */
+
